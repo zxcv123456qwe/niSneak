@@ -6,10 +6,10 @@
 This repository is the official implementation of  niSNEAK
 
  In software analytics,   better results can be found using less information by looking   closely at the data before leaping to new conclusions. For example, niSNEAK  is a  new hyperparameter optimizer   that   configures learners  to   predict for future values of project health indicators such as 
-$\{C,I,R\}$ where: 
- * $C$= number of commits; 
- * $I$=number of closed issues, and  
-* $R$=number of closed pull requests.  
+{C,I,R} where: 
+ * C= number of commits; 
+ * I=number of closed issues, and  
+ * R=number of closed pull requests.  
 
 Instead of blindly applying a sequence of learners, niSNEAK reflects on the landscape of the data. Specifically niSNEAK (a) recursively partitions the landscape of possible configurations   (via random projections), then (b) uses an weighted  analysis to make decisions that most divides the landscape; then (c)     samples a small number of points  cross the surviving parts of the landscape. 
 
