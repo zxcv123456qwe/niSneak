@@ -1,0 +1,15 @@
+CV: traintestsplit:
+-train_size,float: 0.7
+-n_splits,int: 1
+
+# CV: repeatedkfold:
+# -n_splits,int: 3
+# -n_repeats,int: 7
+
+# CV: loader:
+# -offset,int: 0
+
+Problem: regression
+Pareto: zitler
+
+Preprocessing:

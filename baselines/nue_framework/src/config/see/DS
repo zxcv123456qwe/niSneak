@@ -1,0 +1,215 @@
+# effort/china.csv:
+# -predict:effort
+# -as_dummies:False
+# -exclude:added,changed,deleted,pdr_afp,pdr_ufp,npdr_afp,npdu_ufp,dev.type,duration,n_effort,afp,id
+
+# effort/isbsg10.csv:
+# -predict:s_effort
+# -quotechar:'
+# -as_dummies:False
+# -exclude: id, year, ot, ag, at, dt, n_effort_level1, n_effort,n_pdr1, n_pdr, sdr, pet, pit, i_date, pas, resource_level, mts, ats, r_pwe_npa,p_uwe, case_tool, um, hma, hardware1, language1, os1,ide, dt1, dbs1, cs1, ws1, ms1, op1, fpsa, rta,bat, sp_cmmi, sp_iso, sp_tickit, min_defects, maj_defects,x_defects, tot_defects, ub_bu, ub_l, ub_du, ub_cu,imarket, t_platform, d_embedded, se, sea, sem, e_estimate,e_estimate_method, dde, ddem, c_estimate, cec, cem,e_tool, e_comments, ec_date, sr?, sr, r_fpc, r_fpa,p_defects, s_defects, d_defects, min_b_defects, maj_b_defects,x_b_defects, tot_b_defects, min_t_defects, maj_t_defects,x_t_defects, tot_t_defects, min_i_defects, maj_i_defects,x_i_defects, tot_i_defects
+
+health/monthly_closed_PRs_12mo/health_project0000.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+
+health/monthly_closed_PRs_12mo/health_project0001.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0002.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0003.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0004.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0005.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0006.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0007.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0008.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0009.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0010.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_PRs_12mo/health_project0011.csv:
+-predict:monthly_closed_PRs_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0000.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+
+health/monthly_closed_issues_12mo/health_project0001.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0002.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0003.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0004.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0005.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0006.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0007.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0008.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0009.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0010.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_closed_issues_12mo/health_project0011.csv:
+-predict:monthly_closed_issues_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0000.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+
+health/monthly_commits_12mo/health_project0001.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0002.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0003.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0004.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0005.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0006.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0007.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0008.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0009.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0010.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+health/monthly_commits_12mo/health_project0011.csv:
+-predict:monthly_commits_12mo
+-as_dummies:False
+-exclude:
+
+# effort/desharnais.csv:
+# -predict:effort
+# -as_dummies:False
+# -na_values:"?"
+# -exclude:project,length,yearend,envergure,pointsnonajust,language
+# -drop:37,43,65,74
+
+# effort/finnish.csv:
+# -predict:dev.eff.hrs.
+# -as_dummies:False
+# -exclude:id,prod,lnsize,lneff
+
+# effort/maxwell.csv:
+# -predict:effort
+# -as_dummies:False
+# -exclude:syear,app,har,dba,ifc,source,telonuse,duration,time
+
+# effort/miyazaki94.csv:
+# -predict:mm
+# -as_dummies:False
+# -exclude:id,kloc,escrn,eform,efile
