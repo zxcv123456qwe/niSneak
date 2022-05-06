@@ -42,9 +42,11 @@ In support of our "look before your leap" hypothesis, we note that niSNEAK can f
 
 ### Baselines:
 
-For running the majority of our baselines open the Baselines directory and then in the ``./baselines/nue_framework/src`` directory run the following command:
+For running the majority of our baselines open the Baselines directory and then in the ``./baselines/nue_framework/src`` directory run the following commands:
  * ``pip install -r requirements.txt``
  * ``python ml.py see``
+
+#### Original [NUE repository](https://github.com/lyonva/Nue)
 
 To repeat the experiment this must be executed 20 times.
 
