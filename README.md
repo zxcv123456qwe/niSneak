@@ -32,18 +32,39 @@ In support of our "look before your leap" hypothesis, we note that niSNEAK can f
 
 ### niSNEAK:
 
- * install dependencies for niSNEAK availabe through our requirements.txt folder in the niSNEAK directory.
- * run the python file named ``rq1.py``
+ * install dependencies for niSNEAK availabe through our requirements.txt folder in the ``./niSNEAK/`` directory.
+ * ``pip install -r requirements.txt``
+
+  * run the python file named ``rq1.py`` under ``./niSNEAK/rq1.py``
+  * ``python rq1.py``
+
 
 
 ### Baselines:
 
-For running the majority of our baselines open the Baselines directory and then in the nue/src directory run the following command:
+For running the majority of our baselines open the Baselines directory and then in the ``./baselines/nue_framework/src`` directory run the following command:
+ * ``pip install -r requirements.txt``
  * ``python ml.py see``
+
+To repeat the experiment this must be executed 20 times.
 
 Make sure to install the requirements for nue available through their requirements.txt folder under the same directory.
 
-To run Optuna and Hyperopt please run all of the available jupyter notebooks on each directory as is
+To run OPTUNA and HYPEROPT please run all of the available jupyter notebooks on each directory as is:
+Prior to that make sure to run:
 
+ * ``pip install optuna``
+ * ``pip install hyperopt``
 
+#### OPTUNA:
+
+ * ``./baselines/optuna/Optuna commits.ipynb``
+ * ``./baselines/optuna/Optuna issues.ipynb``
+ * ``./baselines/optuna/Optuna prs.ipynb``
+
+#### HYPEROPT:
+
+ * ``./baselines/hyperopt/Hyperopt commits.ipynb``
+ * ``./baselines/hyperopt/Hyperopt issues.ipynb``
+ * ``./baselines/hyperopt/Hyperopt prs.ipynb``
 
