@@ -154,7 +154,7 @@ def main(file_name, eval_file, directory, is_oracle_enabled):
                 'Score': scores,
                 'Time': t
             }).T
-        df.to_csv(cur_dir + '/' + 'Scores/'+directory+'/Score_' + budget + '_budget_' + file_name)
+        df.to_csv(cur_dir + '/' + 'Scores/'+directory+'Score_' + budget + '_budget_' + file_name)
 
 
 def prepare_result_label(method_obj, best_solution, random_solution):
